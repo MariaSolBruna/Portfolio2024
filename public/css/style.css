@@ -1,0 +1,1162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+.nav-link {
+    border-radius: 20px;
+    letter-spacing: 2px;
+    margin-left: 40px;
+    font-size: 23px;
+}
+
+.nav-link:hover {
+    background-color: rgb(113, 113, 113);
+    color: white;
+    border-radius: 50px;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    pointer-events: none;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/keyboard.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    object-fit: contain;
+    margin-bottom: 25px;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 65vh;
+}
+
+.header-inside2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header-inside2-img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-inside2-text {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.container-header img {
+    height: 320px;
+    width: 420px;
+}
+
+.img-logo {
+    width: 170px;
+    height: 35px;
+}
+
+.header-inside {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.myName {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.container-header h2 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.curv {
+    position: absolute;
+    width: 100%;
+    bottom: -10px;
+}
+
+.curv img {
+    width: 100%;
+}
+
+.btn-me {
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.btn-me:hover {
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
+
+/* TITULOS DEL MEDIO */
+
+.mid-title {
+    text-align: center;
+    margin: 25px;
+}
+
+.mid-title2 {
+    text-align: center;
+    margin: 100px 25px 25px;
+}
+
+/* HOBBIES */
+
+/* .container-hobbies {
+    display: flex;
+    margin: 50px auto;
+    flex-direction: column;
+    width: 60vw;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbies p {
+    font-size: 30px;
+    margin: 5px 0 5px 15px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.hobbies i {
+    color: rgb(255, 192, 203);
+    font-size: 35px;
+} */
+
+/* DISEÑOS (CAJA EN INDEX.HTML) */
+
+.designs {
+    width: 80vw;
+    margin: 30px auto;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.allDesigns {
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.design1 {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    height: 300px;
+    width: 300px;
+    border: 6px solid rgb(255, 192, 203);
+    background-image: url("../images/diseno/Imagen2.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.design2 {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    height: 300px;
+    width: 300px;
+    border: 6px solid rgb(255, 192, 203);
+    background-image: url("../images/diseno/Afiche1_Mesa\ de\ trabajo\ 1.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.design3 {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    height: 300px;
+    width: 300px;
+    border: 6px solid rgb(255, 192, 203);
+    background-image: url("../images/diseno/MenuInterior3.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.allDesigns-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-design {
+    background-color: rgb(249, 227, 231);
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 5px 10px;
+    margin-top: 100px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
+.btn-design:hover {
+    background-color: rgb(82, 80, 80);
+    color: rgb(255, 255, 255);
+}
+
+.design1:hover, .design2:hover, .design3:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+.design1, .design2, .design3 {
+    transition: 1.5s;
+}
+
+/* DISEÑOS (LANDING DISENOS.HTML) */
+
+.myDesigns {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.myDesignsInside {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.designSquare, .designRectangle {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.designSquare img {
+    height: 450px;
+    width: 450px;
+    margin: 20px;
+    border: 4px solid pink;
+    border-radius: 10px;
+}
+
+.designRectangle img {
+    height: 600px;
+    width: 450px;
+    margin: 20px;
+    border: 4px solid pink;
+    border-radius: 10px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 85vw;
+    margin: 50px auto;
+}
+
+.portfolio p {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* FONDO DEL MEDIO */
+
+.wall2 {
+    background-image: url("../images/keyboard.jpg");
+    background-position: bottom;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+}
+
+.curv2 {
+    position: absolute;
+    width: 100%;
+}
+
+.curv2 img {
+    width: 100%;
+}
+
+.wall3 {
+    background-image: url("../images/keyboard.jpg");
+    background-position: bottom;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.curv3 {
+    position: absolute;
+    width: 100%;
+}
+
+.curv3 img {
+    width: 100%;
+   bottom: -10px;
+}
+
+/* HABILIDADES */
+
+.habilities {
+    margin: 40px auto 80px auto;
+    width: 45vw;
+}
+   
+.habilities-boxes {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+       margin: 20px 0;
+}
+   
+.habilities-box {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 200px;
+       height: 200px;
+       margin: 20px;
+       flex-direction: column;
+}
+
+.habilities-box img {
+    height: 100px;
+    height: 100px;
+}
+
+.habilities-box h3 {
+    margin-top: 20px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+/* PROYECTOS */
+
+.projects {
+    width: 70vw;
+    margin: 30px auto;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.all-projects {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.all-projects h3 {
+    width: 92%;
+    margin: 20px 0;
+    border-radius: 50px;
+    background-color: rgb(250, 213, 219);
+    text-align: center;
+    padding: 15px;
+    color: rgb(47, 47, 47);
+}
+
+.all-projects i {
+    font-size: 30px;
+    color: rgb(47, 47, 47);
+    margin-right: 15px;
+}
+
+.projectA:hover, .projectB:hover, .projectC:hover, .projectD:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+.projectA, .projectB, .projectC, .projectD {
+    transition: 1.5s;
+}
+
+.projectContainer {
+    text-align: center;
+    width: 30%;
+}
+
+.projectLink {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    /* align-content: end; */
+}
+
+.projectTitle {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.projectDescription {
+    text-align: justify;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.projectContainer a {
+    font-size: 20px;
+    margin: 30px auto;
+}
+
+.projectA {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    height: 300px;
+    width: 300px;
+    border: 6px solid rgb(255, 192, 203);
+    background-image: url("../images/projectA.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.projectB {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    height: 300px;
+    width: 300px;
+    border: 6px solid rgb(255, 192, 203);
+    background-image: url("../images/projectB.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.projectC {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    height: 300px;
+    width: 300px;
+    border: 6px solid rgb(255, 192, 203);
+    background-image: url("../images/projectC.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.projectD {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    height: 300px;
+    width: 300px;
+    border: 7px solid rgb(255, 192, 203);
+    background-image: url("../images/projectD.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+/* FOOTER */
+
+footer {
+    background-image: url("../images/keyboard.jpg");
+    background-position: bottom;
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+}
+
+.footer2 {
+    display: none;
+}
+
+.container-footer {
+    width: 90%;
+}
+
+.container-footer a {
+    text-decoration: none;
+    color: black;
+}
+
+/* footer ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+} */
+
+footer ul p {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    letter-spacing: 5px;
+}
+
+footer img {
+    width: 100%;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* HEADER CV */
+
+.container-header-cv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 65vh;
+}
+
+.header-inside-cv-2 {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.header-inside-cv-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.header-inside-cv-3 h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.waysToContact {
+    font-family: 'Roboto Flex', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.waysToContact a {
+    text-decoration: none;
+    width: 100%;
+}
+
+.waysToContact p {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+.waysToContact i {
+    font-size: 35px;
+    margin: 40px 0 20px;
+    color: rgb(113, 113, 113);
+}
+
+/* SOBRE MI */
+
+.about-me {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px auto;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.about-me-inside {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.about-me-inside h3 {
+    width: 80%;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.about-me-inside p {
+    width: 100%;
+    margin: 12px 40px;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.about-me img {
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+/* EDUCACION */
+
+.container-ed {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 70px auto 100px;
+    flex-wrap: wrap;
+}
+
+.container-ed h2 {
+    width: 100%;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.container-ed-inside {
+    font-family: 'Roboto Flex', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-ed-inside2 {
+    /* display: flex;
+    justify-content: center;
+    justify-items: center; */
+    flex-wrap: wrap;
+    width: 30%;
+    margin-bottom: 80px;
+    border: 3px solid pink;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgb(250, 245, 246);
+}
+
+.container-ed-inside2 h3 {
+    text-align: center;
+}
+
+.container-ed-inside2 p {
+    text-align: center;
+}
+
+.container-ed-inside h3 {
+    font-size: 25px;
+}
+
+.container-ed-inside span {
+    font-size: 20px;
+    background-color: rgb(255, 192, 203);
+
+    border-radius: 25px;
+    padding: 0 20px;
+}
+
+.container-ed-inside p {
+    font-size: 18px;
+}
+
+.container-ed-inside i {
+    margin-right: 15px;
+    color: rgb(255, 192, 203);
+}
+
+/* EXPERIENCIA */
+
+.container-exp {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 15px auto 100px;
+    flex-wrap: wrap;
+}
+
+.container-exp h2 {
+    width: 100%;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.container-exp-inside {
+    font-family: 'Roboto Flex', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.container-exp-inside div {
+    width: 30%;
+    text-align: justify;
+    margin: 40px 0;
+    padding: 30px;
+    border: 3px solid pink;
+    border-radius: 10px;
+    background-color: rgb(250, 245, 246);
+}
+
+.container-exp-inside h3 {
+    font-size: 25px;
+}
+
+.container-exp-inside span {
+    font-size: 20px;
+    background-color: rgb(255, 192, 203);
+    border-radius: 25px;
+    padding: 0 20px;
+}
+
+.container-exp-inside i {
+    margin-right: 15px;
+    color: rgb(255, 192, 203);
+}
+
+.container-exp-inside p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.img-mid-cv {
+    display: flex;
+    justify-content: center;
+}
+
+.img-mid-cv2 img {
+    display: none;
+}
+
+.btn-mid {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-download {
+    background-color: rgb(255, 192, 203);
+    border-radius: 25px;
+    border: 0;
+    font-size: 20px;
+    padding: 5px 15px;
+    margin-top: 15px;
+}
+
+.btn-download:hover {
+    background-color: rgb(113, 113, 113);
+    color: white;
+    border-radius: 25px;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* RESPONSIVE 1024 x 600 */
+
+@media(max-width: 1024px) {
+    
+    .header-inside2-text {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+
+    .header-inside2-text p {
+        margin: 16px 0;
+    }
+
+    .header-inside2-text h2 {
+        font-size: 30px;
+        margin: 0 0 15px;
+    }
+
+    .header-inside2-img img {
+        height: 250px;
+        width: 400px;
+    }
+
+    .btn-me {
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(85, 85, 85);
+        border: none;
+    }
+
+    .hobbies i {
+        font-size: 27px;
+    }
+
+    .hobbies p {
+        font-size: 25px;
+    }
+
+    .wall2 {
+        background-image: url("../images/keyboard.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        object-fit: contain;
+        height: 250px;
+    }
+
+    .habilities {
+        margin: 40px auto 80px auto;
+        width: 80vw;
+    }
+
+    .wall3 {
+        background-image: url("../images/keyboard.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        object-fit: contain;
+        height: 250px;
+    }
+
+    .all-projects {
+        margin: 20px 0;
+    }
+
+    .projectContainer {
+        margin-bottom: 25px;
+    }
+
+    .about-me {
+        width: 100%;
+    }
+
+    .about-me img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .about-me p {
+        font-size: 20px;
+    }
+
+    .img-mid-cv {
+        width: 95%;
+    }
+
+    .container-exp-inside div {
+        width: 28%;
+    }
+
+    footer {
+        background-image: url("../images/keyboard.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        object-fit: contain;
+        height: 270px;
+    }
+
+    footer ul {
+        padding-left: 10px;
+    }
+
+    footer ul p {
+        font-size: 18px;
+        margin: 10px 0 20px 10px;
+    }
+}
+
+/* RESPONSIVE NAV MIN 768 */
+
+@media(min-width: 768px) {
+
+    .bg-dark{
+        background-color: transparent!important;
+    }
+
+    .nav-link {
+        color: rgb(0, 0, 0);
+    }
+
+    .navbar-brand {
+        color: rgb(0, 0, 0);
+    }
+}
+
+/* RESPONSIVE 375 x 667 */
+
+@media(max-width: 375px) {
+
+    /* INDEX */
+
+    .nav-link {
+        color: rgb(0, 0, 0);
+        text-align: end;
+        font-size: 20px;
+    }
+
+    .bg-dark{
+        background-color: transparent!important;
+    }
+
+    .curv {
+        display: none;
+    }
+
+    .container-header {
+        margin-top: 40px;
+    }
+
+    .container-header-cv {
+        margin-top: 20px;
+    }
+
+    .header-inside {
+        margin: 0;
+        padding: 0;
+        /* background-color: transparent; */
+    }
+
+    .header-inside2 {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+    }
+
+    .header-inside2-text h2 {
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-inside2-text {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px 0 20px;
+    }
+
+    .container-header img {
+        width: 350px;
+    }
+
+    .btn-me {
+        background-color: rgb(85, 85, 85);
+        color: white;
+        border: none;
+        font-size: 18px;
+    }
+
+    .hobbies p {
+        font-size: 20px;
+    }
+
+    .hobbies i {
+        font-size: 20px;
+    }
+
+    .wall2 {
+        background-image: url("../images/keyboard.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        object-fit: contain;
+        height: 120px;
+    }
+
+    .mid-title2 {
+        margin: 40px 0 0;
+    }
+
+    .habilities {
+        width: 100%;
+    }
+
+    .habilities-boxes {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 5px 0;
+    }
+
+    .habilities-box {
+        width: 30%;
+        margin: 0;
+        height: 130px;
+    }
+
+    .habilities-box img {
+        height: 55px;
+        width: 55px;
+    }
+    
+    .habilities-box h3 {
+        font-size: 18px;
+    }
+
+    .wall3 {
+        background-image: url("../images/keyboard.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        object-fit: contain;
+        height: 120px;
+    }
+
+    .projects {
+        width: 100%;
+    }
+    
+    .all-projects {
+        margin: 15px 0;
+    }
+
+    .allprojects h3 {
+        margin: 0;
+    }
+
+    .all-projects i {
+        font-size: 20px;
+        margin: 0 0 20px;
+    }
+
+    .projectContainer {
+        margin: 10px 0 20px;
+    }
+
+    .projectContainer p {
+        margin: 0;
+    }
+
+    /* CV */
+
+    .about-me {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .about-me img {
+        height: 300px;
+        width: 300px;
+        margin: 0;
+    }
+
+    .about-me-inside h3 {
+        text-align: center;
+    }
+
+    .about-me-inside p {
+        font-size: 20px;
+    }
+
+    .container-ed {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container-ed-inside {
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container-ed-inside div {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .img-mid-cv img {
+        display: none;
+    }
+
+    .img-mid-cv2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-mid-cv2 img {
+        display: block;
+    }
+    
+    .container-exp {
+        width: 94%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 15px auto 0;
+    }
+
+    .container-exp-inside {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .container-exp-inside div {
+        width: 90%;
+        text-align: justify;
+        margin-bottom: 45px;
+    }
+
+    .exp-text {
+        margin: 16px 0;
+        text-align: justify;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .footer2 {
+        display:block;
+        background-image: url("../images/wall2.jpg");
+        background-position: bottom;
+        background-attachment: fixed;
+        width: 100%;
+        height: 200px;
+    } 
+
+    .footer2 ul {
+        padding-left: 5px;
+    }
+
+    .footer2 ul p {
+        font-size: 15px;
+        margin: 10px 0 20px 10px;
+    } 
+
+}
